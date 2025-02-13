@@ -1,0 +1,19 @@
+.cards {
+  width: 1280px;
+  height: 970px;
+  top: 310px;
+  left: 80px;
+  border-bottom-width: 1px;
+  padding-bottom: 40px;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.cards__list {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 20px;
+  width: 1280px;
+  height: 970px;
+}

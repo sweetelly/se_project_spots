@@ -1,0 +1,88 @@
+.profile {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 210px;
+  display: flex;
+  padding: 34px 0 20px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
+}
+
+.profile__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__edit-btn {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: rgba(33, 33, 33, 1);
+  background-color: transparent;
+  border: none;
+  margin-right: auto;
+  padding: 0;
+}
+
+.profile__pencil {
+  margin-right: 8px;
+  padding: 0;
+  color: rgba(33, 33, 33, 1);
+  margin-top: auto;
+  width: 18.479999225964608;
+  height: 3.2142154620351118;
+  angle: -135 deg;
+  width: 107.34012603759766;
+  height: 16;
+  opacity: 0.7;
+  gap: 8px;
+}
+
+.profile__add-btn {
+  margin-left: auto;
+  margin-top: auto;
+  width: 149px;
+  height: 52px;
+  padding: 0;
+  /* padding: 18px 24px 18px 52px; */
+  gap: 8px;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(252, 245, 229, 1);
+  background-color: rgba(33, 33, 33, 1);
+}
+
+.profile__plus {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.profile__name {
+  margin: 0 0 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: rgba(33, 33, 33, 1);
+}
+
+.profile__description {
+  margin: 0 0 auto;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: rgba(33, 33, 33, 0.7);
+}
+
+.profile__avatar {
+  margin-right: 20px;
+  border-radius: 8%;
+}
