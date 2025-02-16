@@ -1,9 +1,6 @@
 .profile {
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 210px;
   display: flex;
-  padding: 34px 0 0;
+  padding: 34px 0 20px;
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
 }
 
@@ -11,7 +8,7 @@
   display: flex;
   flex-direction: column;
   width: 420px;
-  height: 190px;
+  /* height: 190px; */
 }
 
 .profile__edit-btn {
@@ -23,6 +20,7 @@
   color: rgba(33, 33, 33, 1);
   background-color: transparent;
   border: none;
+  margin-top: auto;
   margin-right: auto;
   padding: 0;
 }
@@ -44,11 +42,9 @@
 .profile__add-btn {
   margin-left: auto;
   margin-top: 138px;
-  margin-bottom: 20px;
   width: 149px;
   height: 52px;
   padding: 0;
-  /* padding: 18px 24px 18px 52px; */
   gap: 8px;
   border-radius: 8px;
   font-family: Poppins;
@@ -70,13 +66,13 @@
   font-family: Poppins;
   font-weight: 500;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 1;
   letter-spacing: 0%;
   color: rgba(33, 33, 33, 1);
 }
 
 .profile__description {
-  margin: 0 0 auto;
+  margin: 0;
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
@@ -87,10 +83,56 @@
 
 .profile__avatar {
   margin-right: 20px;
-  border-radius: 8%;
+  border-radius: 10%;
   width: 190px;
   height: 190px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    /* height: 274px; */
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 288px;
+  }
+
+  .profile__avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 12px;
+    /* padding: 20px 0 0; */
+  }
+
+  .profile__add-btn {
+    margin: 0;
+    width: 288px;
+    height: 52px;
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    gap: 8px;
+    border-radius: 8px;
+  }
+
+  .profile__edit-btn {
+    margin: 0 0 20px;
+  }
+
+  .profile__name {
+    margin: 0 0 6px;
+    font-size: 20px;
+  }
+
+  .profile__description {
+    margin-bottom: 32px;
+  }
 }
