@@ -1,8 +1,9 @@
 .cards {
-  width: 1280px;
-  height: 970px;
-  top: 310px;
-  left: 80px;
+  max-width: 1280px;
+  height: auto;
+  /* top: 310px;
+  left: 80px; */
+  padding-top: 20px;
   border-bottom-width: 1px;
   padding-bottom: 40px;
   gap: 20px;
@@ -11,9 +12,21 @@
 
 .cards__list {
   padding: 0;
+  margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(413px, 1fr));
+  justify-content: center;
+  /*gap: 40px 20px; */
   width: 1280px;
   height: 970px;
+  grid-gap: 40px 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .cards__list {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 20px;
+    column-gap: 20px;
+  }
 }
