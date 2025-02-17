@@ -10,13 +10,18 @@
 
 This is the third project of the Software Engineering program at TripleTen.
 
+**Project name**
+Spots
+
+**Project Description**
+
 **Project Features**
 Semantic HTML5
 Flexbox
+Grid
+webkit
 Positioning
 Flat BEM file structure
-A custom form
-CSS animation and transform
 
 **Figma**
 
@@ -24,7 +29,7 @@ CSS animation and transform
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+I optimized my images using (https://tinypng.com/), so my project loads faster.
 
 **Plan on Improving the project**
 
@@ -36,3 +41,5 @@ Feel free to visit my project via this link.
 https://sweetelly.github.io/se_project_spots/index.html
 
 **Link of my video**
+Enjoy my project with this video!!
+https://youtu.be/qGSvLxuhY1w
