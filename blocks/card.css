@@ -36,8 +36,32 @@
   margin: 0;
 }
 
-/* .card__content:nth-child(4) {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-} */
+@media screen and (max-width: 627px) {
+  .card {
+    width: 288px;
+    margin: 0 auto;
+  }
+
+  .card__image {
+    width: 288px;
+    height: 288px;
+  }
+
+  .cards__list {
+    gap: 20px;
+  }
+
+  .card__content {
+    width: 288px;
+  }
+
+  .cards__list:nth-child(4) {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .card__title {
+    font-size: 16px;
+  }
+}
