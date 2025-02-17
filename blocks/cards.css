@@ -1,6 +1,8 @@
 .cards {
   margin: 0 auto;
   padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
 }
 
 .cards__list {
@@ -14,6 +16,10 @@
 }
 
 @media screen and (max-width: 627px) {
+  .cards {
+    padding-bottom: 20px;
+  }
+
   .cards__list {
     gap: 20px;
   }

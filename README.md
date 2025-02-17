@@ -30,3 +30,9 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 1. Functional buttons
 2. Animation when you hover on the images
+
+**Link of my Project**
+Feel free to visit my project via this link.
+https://sweetelly.github.io/se_project_spots/index.html
+
+**Link of my video**
