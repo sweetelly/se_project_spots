@@ -32,14 +32,15 @@
 }
 
 .card__like-btn:hover {
-  cursor: url(../images/Cursor.svg), pointer;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .card__title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 119px;
+  max-width: 350px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -70,7 +71,7 @@
   }
 
   .card__content {
-    width: 288px;
+    max-width: 288px;
   }
 
   .card__title {
