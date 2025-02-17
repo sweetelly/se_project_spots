@@ -1,3 +1,7 @@
+.card {
+  width: 413px;
+}
+
 .card__image {
   width: 413px;
   height: 413px;
@@ -15,7 +19,6 @@
 
 .card__like-btn {
   background-image: url(../images/Union.svg);
-
   width: 23px;
   height: 20px;
   border: none;
@@ -32,3 +35,9 @@
   color: rgba(33, 33, 33, 1);
   margin: 0;
 }
+
+/* .card__content:nth-child(4) {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+} */
